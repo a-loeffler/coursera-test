@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+	background-color: #daed82;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #abb576;
+	border-radius: 0;
+	border: 0;
+	margin-bottom: 25px;
+	padding-bottom: 0px;
+	min-height: 100px;
+}
+
+.navbar-brand h1{
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Merienda One', cursive;
+	text-shadow: -1px 1px 1px #daed82;
+
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #daed82;
+	background-color: #6c753e;
+}
+
+
+.navbar-header button.navbar-toggle:hover {
+	background-color: #6c753e;
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle:focus {
+	background-color: #292b1a;
+	border: 1px solid black;
+	box-shadow: 0 4px 8px 0 #daed82, 0 6px 20px 0 #daed82;
+
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 30px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#nav-list {
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: #daed82;
+	
+	border-bottom: 2px solid black;
+}
+
+#nav-list a {
+	font-family: sans-serif;
+	font-size: 2em;
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+#nav-list a:hover {
+	color: #daed82;
+	background-color: #6c753e;
+}
+
+/** End HEADER **/
+
+/** "OUR MENU" TITLE **/
+.menu-title {
+	color: #6c753e;
+	font-family: 'Merienda One', cursive;
+	text-shadow: -1px 1px 1px black;
+	font-size: 2.8em;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
+
+/** End TITLE **/
+
+/** JUMBOTRON **/
+#jumbotron-container {
+	
+	font-family: 'Arial', sans-serif;
+	margin-bottom: 25px;
+
+}
+
+#jumbotron-container 
+
+
+#jumbotron {
+	background-color: #292b1a;
+	color: #daed82;
+	font-size: 1.6em;
+	min-height: 1000px;
+	text-align: justify;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#jumbotron h3 {
+	text-transform: capitalize;
+	color: #abb576;
+	text-shadow: -1px 1px 1px black;
+	font-size: 1.6em;
+	font-style: italic;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
